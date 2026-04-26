@@ -1,0 +1,1 @@
+using System; class Student{ private string name; private int age; public void SetData(string n,int a){name=n;age=a;} public void Display(){Console.WriteLine($"Name: {name}\nAge: {age}");}} class Program{ static void Main(){ var s=new Student(); s.SetData("Janhavi",20); s.Display();}}

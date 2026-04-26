@@ -1,0 +1,1 @@
+using System; class Report{ public string GetContent()=> "Student Report Generated";} class ReportPrinter{ public void Print(string c)=>Console.WriteLine(c);} class Program{ static void Main(){var r=new Report(); new ReportPrinter().Print(r.GetContent());}}
